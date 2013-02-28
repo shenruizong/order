@@ -1,0 +1,32 @@
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+    <body>
+        <div class="member">
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>成员名</th>
+                        <th>删除</th>
+                    </tr>
+                </thead>
+                <tbody>
+                <volist id="user" name="user">
+                    <tr>
+                        <td>{$user.nickname}</td>
+                        <td><a href="__URL__/DelBinding/agent_id/{$Think.session.id}/user_id/{$user.id}">删除</a></td>
+                    </tr>
+                </volist>
+                </tbody>
+            </table>
+
+        </div>
+    </body>
+</html>
