@@ -16,16 +16,12 @@
 <body>
     <div class="main" id="tabs">
         <ul>
-            <li><a href="#tabs-1">个人项目</a></li>
-            <li><a href="#tabs-2">团队项目</a></li>
-        </ul>
-        <div class="header">
+            <li><a href="__APP__/Project/Single">个人项目</a></li>
+            <li><a href="__APP__/Project/Group">团队项目</a></li>
             <div class="logout">
-                <a href="__URL__/gone">注销</a>
+                {$Think.session.nickname} <a href="__URL__/gone">注销</a>
             </div>
-        </div>
-        <div id="tabs-1">我是个人项目</div>
-        <div id="tabs-2">我是团队项目</div>
+        </ul>
     </div>
 
 </body>

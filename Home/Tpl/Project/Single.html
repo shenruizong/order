@@ -1,0 +1,18 @@
+<div>
+    <script>
+        $(function() {
+            $("#tes li a").click(function(event) {
+                event.preventDefault();
+                var href = $(this).attr("href");
+                $(".content").load(href);
+            })
+        });
+    </script>
+    <ul id="tes">
+        <li><a href="__APP__/Mission/ShowMyMission">我的工作</a></li>
+        <li><a href="__APP__/Mission/ShowAllMission">接去任务</a></li>
+        <li><a href="__APP__/Member/ShowMember">个人资料</a></li>
+    </ul>
+    <div class="content">
+    </div>
+</div>

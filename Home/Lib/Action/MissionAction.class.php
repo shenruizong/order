@@ -31,5 +31,14 @@ class MissionAction extends Action {
             }
         }
     }
+    
+    function ShowMyMission()
+    {
+        $this->display();
+    }
+    function ShowAllMission()
+    {
+        $this->display();
+    }
 
 }

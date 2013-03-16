@@ -7,6 +7,38 @@
 */
 input,button,select,textarea{outline:none}
 a{outline:none}
+html{color:#000;} 
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form, 
+fieldset,input,textarea,p,blockquote,th,td { 
+margin:0; 
+padding:0; 
+} 
+table { 
+border-collapse:collapse; 
+border-spacing:0; 
+} 
+fieldset,img { 
+border:0; 
+} 
+address,caption,cite,code,dfn,em,strong,th,var { 
+font-style:normal; 
+font-weight:normal; 
+} 
+ol,ul { 
+list-style:none; 
+} 
+caption,th { 
+text-align:left; 
+} 
+h1,h2,h3,h4,h5,h6 { 
+font-size:100%; 
+font-weight:normal; 
+} 
+q:before,q:after { 
+content:”; 
+} 
+abbr,acronym { border:0; 
+} 
 body
 {
     background-color: #999;
@@ -17,5 +49,33 @@ body
     height: 500px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 80px;
+    margin-top: 50px;
+}
+.logout
+{
+    float: right;
+    margin-top: 5px;
+    margin-right: 5px;
+    
+}
+#tes
+{
+    background-color: #3baae3;
+    width: 200px;
+    height: 300px;
+    font-size: 25px;
+    float: left;
+}
+#tes li
+{
+    margin-left: 35px;
+    margin-top: 25px;
+}
+.content
+{
+    float: left;
+    background-color: #999;
+    width: 500px;
+    height: 400px;
+    margin-left: 25px;
 }
