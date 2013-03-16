@@ -7,9 +7,6 @@ class IndexAction extends Action {
         if (!$_SESSION) {
             session("id", "2");
             session("nickname", "bbc");
-            dump($_SESSION);
-        }  else {
-            dump($_SESSION);
         }
         $this->display();
     }

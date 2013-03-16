@@ -1,0 +1,21 @@
+/* 
+    Document   : main
+    Created on : 2013-3-16, 22:52:51
+    Author     : Administrator
+    Description:
+        Purpose of the stylesheet follows.
+*/
+input,button,select,textarea{outline:none}
+a{outline:none}
+body
+{
+    background-color: #999;
+}
+.main
+{
+    width: 800px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+}

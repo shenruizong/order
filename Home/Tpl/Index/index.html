@@ -1,14 +1,32 @@
-<!--
-To change this template, choose Tools | Templates
-and open the template in the editor.
--->
 <!DOCTYPE html>
 <html>
     <head>
-        <title></title>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    </head>
-    <body>
-        <a href="__URL__/gone">注销</a>
-    </body>
+        <title>用户交单系统</title>
+    <load href="__PUBLIC__/Css/jquery-ui/jquery-ui-1.10.2.custom.min.css"/>
+    <load href="__PUBLIC__/Js/jquery-1.9.1.js"/>
+    <load href="__PUBLIC__/Js/jquery-ui-1.10.2.custom.min.js"/>
+    <load href="__PUBLIC__/Css/main.css"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <script>
+        $(function() {
+            $("#tabs").tabs();
+        });
+    </script>
+</head>
+<body>
+    <div class="main" id="tabs">
+        <ul>
+            <li><a href="#tabs-1">个人项目</a></li>
+            <li><a href="#tabs-2">团队项目</a></li>
+        </ul>
+        <div class="header">
+            <div class="logout">
+                <a href="__URL__/gone">注销</a>
+            </div>
+        </div>
+        <div id="tabs-1">我是个人项目</div>
+        <div id="tabs-2">我是团队项目</div>
+    </div>
+
+</body>
 </html>
